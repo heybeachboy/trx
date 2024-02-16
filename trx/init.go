@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"tron/log"
+	"github.com/heybeachboy/trx/log"
 
 	"github.com/BurntSushi/toml"
 	"github.com/shopspring/decimal"

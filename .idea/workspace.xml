@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c39cf63-78f5-48e4-a6d6-fb83909cdecc" name="Changes" comment="" />
+    <list default="true" id="6c39cf63-78f5-48e4-a6d6-fb83909cdecc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_grpc.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/zksnark.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/zksnark.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trx/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/trx/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trx/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/trx/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trx/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/trx/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trx/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/trx/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trx/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/trx/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trx/transcation.go" beforeDir="false" afterPath="$PROJECT_DIR$/trx/transcation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/transaction.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +44,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Go Build.go build gitee.com/MR.zhou.com/trx.executor": "Run",
+    "Go Build.go build github.com/heybeachboy/trx.executor": "Run",
+    "Go Build.go build tron.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/Users/leon/project/go/trx",
@@ -43,7 +61,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/heybeachboy/trx">
     <configuration name="go build gitee.com/MR.zhou.com/trx" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="trx" />
       <working_directory value="$PROJECT_DIR$" />
@@ -53,8 +71,28 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/heybeachboy/trx" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="trx" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/heybeachboy/trx" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tron" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="trx" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="tron" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/heybeachboy/trx" />
+        <item itemvalue="Go Build.go build tron" />
         <item itemvalue="Go Build.go build gitee.com/MR.zhou.com/trx" />
       </list>
     </recent_temporary>

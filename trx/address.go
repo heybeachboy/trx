@@ -3,7 +3,7 @@ package trx
 import (
 	"crypto/ecdsa"
 	"errors"
-	"tron/model"
+	"github.com/heybeachboy/trx/model"
 
 	"github.com/smirkcat/hdwallet"
 )

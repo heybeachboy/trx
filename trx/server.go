@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/heybeachboy/trx/util"
 	"net/http"
-	"tron/util"
 
 	"github.com/semrush/zenrpc/v2"
 	"github.com/shopspring/decimal"
@@ -40,6 +40,7 @@ func (as Service) ValidateAddress(addr string) util.ValidateAddress {
 }
 
 // ListTransactions 获取指定地址最近的交易记录
+//
 //zenrpc:count=300
 //zenrpc:skip=0
 //zenrpc:addr="*"

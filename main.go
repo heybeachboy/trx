@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/heybeachboy/trx/daemon"
+	"github.com/heybeachboy/trx/trx"
 	"os"
 	"time"
-	"tron/daemon"
-	"tron/trx"
 )
 
 const (

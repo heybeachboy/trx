@@ -3,8 +3,8 @@ package util
 import (
 	"crypto/ecdsa"
 	"crypto/sha256"
+	"github.com/heybeachboy/trx/core"
 	"time"
-	"tron/core"
 
 	"github.com/ethereum/go-ethereum/crypto"
 

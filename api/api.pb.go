@@ -7,7 +7,7 @@
 package api
 
 import (
-	core "tron/core"
+	core "github.com/heybeachboy/trx/core"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
